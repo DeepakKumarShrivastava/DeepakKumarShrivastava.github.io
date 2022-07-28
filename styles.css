@@ -1,0 +1,133 @@
+.container{
+    opacity: .95;
+    background-color: hsl(217, 54%, 11%);
+    position:fixed;
+    width:100%;
+    height:100vh;
+    top:0px;
+    left:0px;
+    justify-content: center;
+    display: flex;
+}
+.card{
+  font-family: 'Outfit', sans-serif;
+  width: 250px;
+  height: 440px;
+  background-color: hsl(216, 50%, 16%);
+  position: relative;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+.image1back{
+  margin: 15px 15px 15px 15px;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  border-radius: 7px;
+  object-fit: contain;
+  background-color: hsl(178, 100%, 50%);
+}
+.image1{
+  width: 220px;
+  height: 220px;
+  position: relative;
+  border-radius: 6px;
+  object-fit: contain;
+}
+.ether{
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  border-radius: 7px;
+}
+.icon{
+  background-color: color: hsl(178, 100%, 50%);
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  border-radius: 7px;
+}
+.svgicon{
+  margin-left: 90px;
+  margin-top: 90px;
+}
+p.m{
+  margin: 15px 15px 15px 15px;
+}
+.mousehover1:active {
+ opacity: 0.7;
+}
+.mousehover2:active{
+ color: hsl(178, 100%, 50%);
+}
+.textwhite1{
+  color: white;
+}
+.font600{
+  font-weight: 600;
+}
+.font300{
+  font-weight: 300;
+}
+.font400{
+  font-weight: 400;
+}
+.textwhite2{
+  color: white;
+  font-size: 0.85em;
+}
+.textblue{
+  color: hsl(215, 51%, 70%);
+  font-size: 0.85em;
+}
+.textcyan{
+  color: hsl(178, 100%, 50%);
+  font-size: 0.85em;
+}
+.grid1{
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: 110px 110px;
+  width: 220px;
+  height: 30px;
+}
+.grid>div{
+  width: 110px;
+  height: 30px;
+}
+.textleft{
+  text-align: left;
+}
+.textright{
+  text-align: right;
+}
+.line{
+  margin-left: 15px;
+  width: 220px;
+  height: 10px;
+  border-bottom: 1.5px solid hsl(215, 32%, 27%);
+}
+.bottom{
+  margin-left: 15px;
+  width: 220px;
+  height: 40px;
+}
+.grid2{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 30px 180px;
+  grid-column-gap: 10px;
+  width: 220px;
+  height: 30px;
+}
+.image3{
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 18px;
+  position: relative;
+  object-fit: contain;
+}
+.textavatar{
+  padding-top: 5px;
+}
